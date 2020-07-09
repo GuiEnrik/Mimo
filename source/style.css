@@ -1,0 +1,80 @@
+@keyframes animatedBackground {
+			from { background-position: 0 0; }
+			to { background-position: 100% 50%; }
+		}
+		@-webkit-keyframes animatedBackground {
+			from { background-position: 0 0; }
+			to { background-position: 100% 50%; }
+		}
+		@-ms-keyframes animatedBackground {
+			from { background-position: 0 0; }
+			to { background-position: 100% 50%; }
+		}
+		@-moz-keyframes animatedBackground {
+			from { background-position: 0 0; }
+			to { background-position: 100% 50%; }
+		}
+
+		
+	body{
+		font-size: 12px;
+		font-family: Arial;
+		background-image: url("background.png");
+		background-position: 0px 0px;
+
+		animation: animatedBackground 40s linear infinite;
+		-ms-animation: animatedBackground 40s linear infinite;
+		-moz-animation: animatedBackground 40s linear infinite;
+		-webkit-animation: animatedBackground 40s linear infinite;
+
+	}
+	p {
+		text-align: right;
+	}
+	#site{
+		margin: auto;
+		width: 1024px;
+		#background-color: #fff;
+	}
+	#topo{
+		margin: auto;
+		height: 180px;
+		background-image: url("logo.png");
+	}
+	#breadcrumbs{
+		height: 50px;
+	}
+	#container{
+		display: inline-block ;
+		width: 1024px;
+		min-height: 100px;
+		padding: 15px;
+	}
+	#rodape{
+		position: fixed;
+		padding-top: 30px;
+		padding-left: 20px;
+		height: 100px;
+		background-repeat: repeat-x;
+		color: #000099;
+		Bottom: 0px;
+		right: 200px;
+	}
+	.itens{
+		float:left;
+		width: 97px;
+		height: 97px;
+		text-align: center;
+	}
+	.icons{
+		width: 50px;
+		height: 50px;
+	}
+	.icons:hover{
+		width: 60px;
+		height: 60px;
+	}
+	a{
+		text-decoration: none;
+		color: purple;
+	}
